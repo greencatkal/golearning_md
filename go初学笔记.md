@@ -107,7 +107,7 @@ func main() {
         fmt.Printf("Slice at %d is %d\n", i, slice1[i])
     }
 
-    fmt.Printf("The length of arr1 is %d\n", len(arr1))
+  #  fmt.Printf("The length of arr1 is %d\n", len(arr1))
     fmt.Printf("The length of slice1 is %d\n", len(slice1))
     fmt.Printf("The capacity of slice1 is %d\n", cap(slice1))
 
@@ -214,3 +214,4 @@ func min(s ...int) int {
 
 >函数可以作为其它函数的参数进行传递，然后在其它函数内调用执行，一般称之为回调。
 
+111
